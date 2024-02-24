@@ -97,7 +97,7 @@ namespace WebApplication1.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        [HttpGet]
+        [HttpPost]
         [Route("Add")]
 
         public IActionResult GuadarEquipo([FromBody] equipos equipo)
